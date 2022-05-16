@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sayı Tahmin Oyunu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Sayı Tahmin Et!</h1>
+        <p class="between">(1-20 arası)</p>
+        <button class="btn again">Tekrar Başlat</button>
+        <div class="number">?</div>
+    </header>
+
+    <main>
+        <section class="left">
+            <input class="guess" type="number">
+            <button class="btn check">Kontrol Et!</button>
+        </section>
+        <section class="right">
+            <p class="message">Tahmin Ediliyor...</p>
+            <p class="score"><i class="fa-solid fa-star"></i>Skor : 20</p>
+            <p class="highscore"><i class="fa-solid fa-medal"></i>En Yüksek Skor : 0</p>
+        </section>
+    </main>
+
+    <script src="https://kit.fontawesome.com/f145327a63.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
